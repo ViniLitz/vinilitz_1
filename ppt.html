@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Pedra, Papel e Tesoura</title>
+    <link rel="stylesheet" href="./css/ppt.css" />
+    <link rel="shortcut icon" href="./images/favicon.png" />
+    <script defer src="js/ppt.js"></script>
+  </head>
+  <body>
+    <nav>
+      <a class="voltar" href="/">Voltar</a>
+    </nav>
+    <header>
+      <h1>Pedra, Papel e Tesoura</h1>
+    </header>
+    <div class="pontos">
+      <div id="you" class="players">Você</div>
+      <div id="bot" class="players">Bot</div>
+      <span id="yourscore">0</span>:<span id="botscore">0</span>
+    </div>
+      <div class="result">
+        <p>Pedra, papel e tesoura</p>
+      </div>
+      <div class="escolhas">
+        <div class="escolha" id="pedra">
+          <img class="pedra" draggable="false"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdxIkEg45LrF-0n0OS_fHNUBHSW53ewpfIntjAP2B1H1xzlztsJDB9rlunJjLQke6KCWs&usqp=CAU"
+            alt="Pedra"
+          />
+        </div>
+        <div class="escolha" id="papel">
+          <img class="papel" draggable="false"
+            src="images/papel" 
+            alt="Papel" 
+          />
+        </div>
+        <div class="escolha" id="tesoura">
+          <img draggable="false" class="tesouraimg"
+            src="https://th.bing.com/th/id/R.9a9cfbefa4ee009b7718213994d19604?rik=MHW7Wxii0fE9NQ&riu=http%3a%2f%2fclipart-library.com%2fimg%2f1927710.png&ehk=7AjuSgYu4r%2fSQqeymL7VCIixFUiZqEu4r1XAbFkybY8%3d&risl=&pid=ImgRaw&r=0"
+            alt="Tesoura"
+          />
+        </div>
+      </div>
+    </div>
+    <p id="fsj">Faça sua jogada.</p>
+    <div class="restart"><button class="restartbtn">Reiniciar</button></div>
+    <div class="inputdiv"><input type="number" class="input" placeholder="Digite o número máximo de pontos"></div>
+  </body>
+</html>

@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
+
+html {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(106, 153, 78);
+}
+
+nav {
+  background-color: rgb(242, 232, 207);
+  text-align: center;
+  user-select: none;
+}
+
+.voltar {
+  font-size: 50px;
+  font-family: Ubuntu;
+  text-decoration: none;
+  color: black;
+  user-select: none;
+}
+
+.voltar:active {
+  color: grey;
+}
+
+header {
+  background-color: rgb(242, 232, 207);
+  text-align: center;
+  padding-bottom: 5px;
+  user-select: none;
+}
+
+header > h1 {
+  font-size: 50px;
+  font-family: Ubuntu;
+  user-select: none;
+}
+
+.numeros {
+  user-select: none;
+  font-family: Ubuntu;
+  text-align: center;
+  margin-top: 50px;
+  font-size: 200px;
+  color: rgb(242, 232, 207);
+  text-shadow: 10px 10px black;
+  cursor: default;
+}
+
+.numerosdiv {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.btns {
+  margin-top: 50px;
+  text-align: center;
+}
+
+button {
+  user-select: none;
+  font-family: Ubuntu;
+  width: 200px;
+  cursor: pointer;
+  height: 50px;
+  border-radius: 0px;
+  border: 2px solid black;
+  box-shadow: 2px 4px black;
+  font-size: 30px;
+  height: 50px;
+  margin-top: 8px;
+  background-color: rgb(242, 232, 207);
+}
+
+button:active {
+  background-color: grey;
+  box-shadow: 4px 2px black;
+}
+
+button:hover {
+  background-color: grey;
+}
+
+.mili {
+  color: rgb(188, 71, 73);
+}
+
+h2 {
+  user-select: none;
+  font-family: Ubuntu;
+  text-align: center;
+  margin-top: 50px;
+  font-size: 50px;
+  color: rgb(242, 232, 207);
+  margin-bottom: 35px;
+  cursor: default;
+}
+
+.inputs {
+  text-align: center;
+}
+
+.timerinp {
+  border: 2px solid black;
+  border-radius: 0px;
+  box-shadow: 2px 4px black;
+  width: 200px;
+  height: 50px;
+  margin-bottom: 10px;
+  font-size: 30px;
+  background-color: rgb(242, 232, 207);
+  padding: 2px 3px;
+  font-family: Ubuntu;
+}
+
+.timerinp:focus {
+  outline: 0;
+}

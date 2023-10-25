@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
+
+html {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(106, 153, 78);
+}
+
+nav {
+  background-color: rgb(242, 232, 207);
+  text-align: center;
+  user-select: none;
+}
+
+.voltar {
+  font-size: 50px;
+  font-family: Ubuntu;
+  text-decoration: none;
+  color: black;
+  user-select: none;
+}
+
+.voltar:active {
+  color: grey;
+}
+
+header {
+  background-color: rgb(242, 232, 207);
+  text-align: center;
+  padding-bottom: 5px;
+  user-select: none;
+}
+
+header > h1 {
+  font-size: 50px;
+  font-family: Ubuntu;
+  user-select: none;
+}
+
+.clock {
+  text-align: center;
+  margin-top: 130px;
+}
+
+.number {
+  text-align: center;
+  font-family: Ubuntu;
+  font-size: 200px;
+  margin-top: 100px;
+  cursor: default;
+  user-select: none;
+  color: rgb(242, 232, 207);
+  text-shadow: 10px 10px black;
+}
+
+.padrao {
+  text-align: center;
+  font-family: Ubuntu;
+  font-size: 50px;
+  margin-top: 40px;
+  cursor: default;
+  user-select: none;
+  color: rgb(242, 232, 207);
+  text-shadow: 2px 2px black;
+}

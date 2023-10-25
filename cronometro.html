@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="shortcut icon" href="images/favicon.png" />
+    <link rel="stylesheet" href="css/cronometro.css" />
+    <title>Cronômetro</title>
+  </head>
+  <body>
+    <nav>
+      <a class="voltar" href="/">Voltar</a>
+    </nav>
+    <header>
+      <h1>Cronômetro</h1>
+    </header>
+    <div class="numerosdiv">
+      <span class="numeros mins">0</span>
+      <span class="numeros">:</span>
+      <span class="numeros seconds">0</span>
+      <span class="numeros">:</span>
+      <span class="numeros mili">0</span>
+    </div>
+    <div class="btns">
+      <button class="cmc">Começar</button>
+      <button class="pause">Pausar</button>
+      <button class="parar">Parar</button>
+    </div>
+    <h2>Escolher um tempo máximo</h2>
+    <div class="inputs">
+      <input
+        type="number"
+        class="timerinp minsinp"
+        placeholder="Minutos"
+        min="1"
+        oninput="validity.valid||(value='');"
+      />
+      <br />
+      <input
+        type="number"
+        class="timerinp secinp"
+        placeholder="Segundos"
+        min="1"
+        oninput="validity.valid||(value='');"
+      />
+      <br />
+      <input
+        type="number"
+        class="timerinp miliinp"
+        placeholder="Milisegundos"
+        min="1"
+        oninput="validity.valid||(value='');"
+      />
+    </div>
+    <script src="js/cronometro.js"></script>
+  </body>
+</html>

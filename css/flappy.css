@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Rowdies:wght@700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(106, 153, 78);
+}
+nav {
+  background-color: rgb(242, 232, 207);
+  text-align: center;
+  user-select: none;
+}
+
+.voltar {
+  font-size: 50px;
+  font-family: Ubuntu;
+  text-decoration: none;
+  color: black;
+  user-select: none;
+}
+
+.voltar:active {
+  color: grey;
+}
+
+header {
+  background-color: rgb(242, 232, 207);
+  text-align: center;
+  padding-bottom: 5px;
+  user-select: none;
+}
+
+header > h1 {
+  font-size: 50px;
+  font-family: Ubuntu;
+  user-select: none;
+}
+
+.telajogo {
+  width: 500px;
+  height: 281.25px;
+  border: 3px solid black;
+  background-color: white;
+  margin: 100px auto;
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+}
+
+.cano {
+  height: ;
+  width: 170px;
+  position: absolute;
+  animation: pipeanimation 3s linear infinite;
+  right: -150px;
+  transform: translateY(-106.25px);
+}
+
+@keyframes pipeanimation {
+  from {
+    right: -150px;
+  }
+
+  to {
+    right: 470px;
+  }
+}
+
+.player {
+  height: 20px;
+  width: 20px;
+  background-color: lightskyblue;
+  position: absolute;
+  top: 125.625px;
+  left: 20px;
+}
+
+.pontos {
+  font-family: Rowdies;
+  position: absolute;
+  left: 13px;
+  top: 10px;
+  font-size: 25px;
+}

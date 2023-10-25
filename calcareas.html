@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Calculadora de Áreas</title>
+    <link rel="stylesheet" href="css/calcareas.css" />
+    <link rel="shortcut icon" href="images/favicon.png" />
+    <script defer src="js/calcareas.js"></script>
+  </head>
+  <body>
+    <nav>
+      <a class="voltar" href="/">Ir para o site principal</a>
+    </nav>
+    <header>
+      <h1 class="titulo">Calculadora de Áreas</h1>
+    </header>
+    <div class="triangulotitle">
+      <h2>Triângulos</h2>
+      <button class="expli explitri">?</button>
+      <br />
+      <div class="text tritext">
+        <button class="close closetri">X</button>
+        Digite o tamanho da base e da altura do triângulo em centímetros e o
+        sistema te dirá a área total deste triângulo. <br />
+        A fórmula para calcular a área de um triângulo é: <br />
+        Área = Base × Altura / 2
+      </div>
+    </div>
+    <div class="inputstridiv">
+      <input
+        type="number"
+        class="inp basetri"
+        min="1"
+        placeholder="Base (Cm)"
+        min="1"
+      />
+      <br />
+      <input
+        type="number"
+        class="inp alturatri"
+        min="1"
+        placeholder="Altura (Cm)"
+      />
+    </div>
+    <div class="btndiv">
+      <button class="btntri btn">Calcular</button>
+    </div>
+    <div class="results resultstri">A área total deste triângulo é: 0 Cm²</div>
+    <h2>Quadrados</h2>
+    <button class="expli expliqua">?</button>
+    <div class="text quatext">
+      <button class="close closequa">X</button>
+      Digite o tamanho do lado do quadrado e o sistema te dirá a área total do
+      quadrado. A fórmula para calcular a área de um quadrado é: <br />
+      Área = Lado² (Lado × Lado)
+    </div>
+    <br />
+    <div class="inputsquadiv">
+      <input
+        type="number"
+        class="inp ladoqua"
+        min="1"
+        placeholder="Lado (Cm)"
+        min="1"
+      />
+    </div>
+    <button class="btnqua btn">Calcular</button>
+    <div class="results resultsqua">A área total deste quadrado é: 0 Cm²</div>
+    <h2>Retângulos</h2>
+    <button class="expli expliret">?</button>
+    <div class="text rettext">
+      <button class="close closeret">X</button>
+      Digite o tamanho da base e da altura do retângulo em centímetros e o
+      sistema te dirá a área total deste retângulo. <br />
+      A fórmula para calcular a área de um triângulo é: <br />
+      Área = Base × altura
+    </div>
+    <br />
+    <input
+      type="number"
+      class="inp baseret"
+      min="1"
+      placeholder="Base (Cm)"
+      min="1"
+    />
+    <br />
+    <input
+      type="number"
+      class="inp alturaret"
+      min="1"
+      placeholder="Altura (Cm)"
+    />
+    <br />
+    <button class="btnret btn">Calcular</button>
+    <div class="results resultsret">A área total deste retângulo é: 0 Cm²</div>
+    <h2>Círculos</h2>
+    <button class="expli explicir">?</button>
+    <div class="text cirtext">
+      <button class="close closecir">X</button>
+      Digite o tamanho do raio do círculo e o sistema te dirá a área total do
+      ccírculo. A fórmula para calcular a área de um círculo é: <br />
+      Área = π × Raio²
+    </div>
+    <br />
+    <input
+      type="number"
+      class="inp raiocir"
+      min="1"
+      placeholder="Raio (Cm)"
+      min="1"
+    />
+    <br />
+    <button class="btncir btn">Calcular</button>
+    <div class="results resultscir">A área total deste círculo é: 0 Cm²</div>
+    <h2>
+      Trabalho feito por Nathaly Bueno, Amanda Urnau, Amanda Garcia e Vinícius
+      Litz
+    </h2>
+    <br />
+    <h2>
+      "Calculadora de Áreas" feita por Vinícius Litz
+    </h2>
+  </body>
+</html>

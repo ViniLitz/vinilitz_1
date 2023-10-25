@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
+
+html {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(106, 153, 78);
+  text-align: center;
+  font-family: Ubuntu;
+}
+
+nav {
+  background-color: rgb(242, 232, 207);
+  text-align: center;
+  user-select: none;
+}
+
+.voltar {
+  font-size: 50px;
+  font-family: Ubuntu;
+  text-decoration: none;
+  color: black;
+  user-select: none;
+}
+
+.voltar:active {
+  color: grey;
+}
+
+header {
+  background-color: rgb(242, 232, 207);
+  text-align: center;
+  padding-bottom: 5px;
+  user-select: none;
+  margin-bottom: 50px;
+}
+
+header > h1 {
+  font-size: 50px;
+  font-family: Ubuntu;
+  user-select: none;
+}
+
+.inp {
+  border: 2px solid black;
+  border-radius: 0px;
+  box-shadow: 2px 4px black;
+  width: 200px;
+  height: 50px;
+  margin-bottom: 10px;
+  font-size: 30px;
+  background-color: rgb(242, 232, 207);
+  padding: 2px 3px;
+  font-family: Ubuntu;
+}
+
+.inp:focus {
+  outline: 0;
+}
+
+.results {
+  font-family: Ubuntu;
+  font-size: 50px;
+  color: black;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.btn {
+  user-select: none;
+  font-family: Ubuntu;
+  width: 200px;
+  cursor: pointer;
+  height: 50px;
+  border-radius: 0px;
+  border: 2px solid black;
+  box-shadow: 2px 4px black;
+  font-size: 30px;
+  height: 50px;
+  margin-top: 8px;
+  background-color: rgb(242, 232, 207);
+}
+
+.btn:active {
+  background-color: grey;
+  box-shadow: 4px 2px black;
+}
+
+.btn:hover {
+  background-color: grey;
+}
+
+h2 {
+  font-family: Ubuntu;
+  font-size: 50px;
+  font-weight: 600;
+  display: inline;
+}
+
+.expli {
+  margin-bottom: 20px;
+  height: 25px;
+  width: 25px;
+  transform: translateY(-9px);
+  margin-left: 5px;
+  background-color: rgb(188, 71, 73);
+  color: rgb(242, 232, 207);
+  border-radius: 12.5px;
+  border: none;
+  cursor: pointer;
+  transition: all 200ms ease;
+}
+
+.expli:hover {
+  background-color: rgb(131, 38, 40);
+}
+
+.expli:focus {
+  outline: 0;
+}
+
+.text {
+  height: 200px;
+  width: 600px;
+  background-color: rgb(242, 232, 207);
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  padding: 20px;
+  font-size: 20px;
+  line-height: 40px;
+  display: none;
+}
+
+.close {
+  height: 25px;
+  width: 25px;
+  transform: translateY(-9px);
+  margin-left: 5px;
+  background-color: rgb(188, 71, 73);
+  color: rgb(242, 232, 207);
+  border-radius: 12.5px;
+  border: none;
+  cursor: pointer;
+  float: right;
+}
+
+.close:hover {
+  background-color: rgb(131, 38, 40);
+}
+
+.close:active {
+  background-color: rgb(131, 38, 40);
+  outline: 0;
+}

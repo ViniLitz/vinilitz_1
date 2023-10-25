@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>Contador</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="./css/calcjuros.css" />
+    <script src="./js/calcjuros.js"></script>
+    <link rel="shortcut icon" href="images/favicon.png" />
+  </head>
+  <body>
+    <nav>
+      <a class="voltar" href="/">Voltar</a>
+    </nav>
+    <main>
+      <h1 class="titulo">Calculadora de Juros</h1>
+      <input
+        type="number"
+        id="input1"
+        placeholder="Sua quantia atual"
+        class="inputcontador"
+      />
+      <br />
+      <input
+        type="number"
+        id="input2"
+        placeholder="Objetivo"
+        class="inputcontador"
+      />
+      <br />
+      <input
+        type="number"
+        id="input3"
+        placeholder="Juros p/mês (20 dias úteis)"
+        class="inputcontador"
+      />
+      <br />
+      <button onclick="enviar()" class="enviarcontador">Enviar</button>
+    </main>
+  </body>
+</html>
